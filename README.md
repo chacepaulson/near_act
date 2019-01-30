@@ -1,2 +1,2 @@
 # near_act
-Github Repo for JLC-301 Final Proj
+Github Repo for JLC-309 Final Proj

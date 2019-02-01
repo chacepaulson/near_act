@@ -8,4 +8,5 @@ Stop Data - includes "stop and frisk" data, "vehicle stop" data, "pedestrian sto
 Sources: 
 
 ShotSpotter Data - Metropolitan Police Department (https://mpdc.dc.gov/node/1310761)
+
 Stop Data - Metropolitan Police Department (https://mpdc.dc.gov/node/1310236)

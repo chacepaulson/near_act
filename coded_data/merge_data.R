@@ -5,7 +5,6 @@ stop_pre2017 <- read_excel("~/Downloads/near_act/raw_data/Stop_Data_pre2017.xlsx
 stop_2017 <- read_excel("~/Downloads/near_act/raw_data/Stop_Data_CY2017.xlsx")
 
 # Check shared colnames 
-
 colnames(stop_pre2017)
 colnames(stop_2017)
 
@@ -16,6 +15,11 @@ stop_2017 <- as.tibble(stop_2017)
 
 # Merge Data into One Combined Tibble 
 stop_total <- rbind(stop_pre2017, stop_2017)
+
+# Check that All Rows Were Added
+nrow(stop_total)
+
+nrow(stop_pre2017) + nrow(stop_2017) 
 
 # rename columns 
 library(dplyr)

@@ -7,6 +7,7 @@ Stop - a temporary detention of a person for the purpose of determining whether 
 
 Frisk - a limited protective search on a person to determine the presence of concealed weapons and/or dangerous instruments
 
+\
 *Data Under Consideration:* 
 
 Shot Spotter - gun shot detection, acoustic surveillance technology that uses sensors to detect, locate, and alert law enforcement agencies of potential gunfire incidents in real time. 
@@ -25,6 +26,7 @@ Stop and Frisk Incident Reports - data may include non-forcible stops, forcible 
 
 Stop and Frisk Field Contact - includes data that was filed under a field contact report instead of an incident report
 
+\
 *Data to Investigate:*
 
 FBI Crime Data Explorer - data derived from incident-based and summary reports, have not yet located the appropriate data set to utilize from the set, arrest and use-of-force data should be coming out soon as well 
@@ -33,7 +35,7 @@ District Crime Data at a Glance - look into the degree to which this data differ
 
 D.C. Crime Cards - discusses the breakdown of various crimes by ward
 
-
+\
 *Sources:*
 
 ShotSpotter Data - Metropolitan Police Department (https://mpdc.dc.gov/node/1310761)

@@ -21,6 +21,8 @@ FBI Crime Data Explorer - data derived from incident-based and summary reports, 
 
 District Crime Data at a Glance - look into the degree to which this data differs from previously recorded data
 
+D.C. Crime Cards - discusses the breakdown of various crimes by ward
+
 
 *Sources:*
 
@@ -37,3 +39,5 @@ Crime Data Explorer - Federal Bureau of Investigation (https://crime-data-explor
 Homicide Closure Rates - Metropolitan Police Department (https://mpdc.dc.gov/node/208772)
 
 District Crime Data at a Glance - Metropolitan Police Department (https://mpdc.dc.gov/node/197622)
+
+D.C. Crime Cards - Metropolitan Police Department (https://dcatlas.dcgis.dc.gov/crimecards/all:crimes/all:weapons/8:years/citywide:ward)

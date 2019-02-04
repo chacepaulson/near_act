@@ -14,6 +14,8 @@ Crime Statistics (Citywide) - official crime index for D.C. from 2013 to 2016
 
 Homicide Closure Rates - data runs from 2003 to 2017
 
+DC Census Tract - data sourced from 2010 with geographic and cartographic information from the Census Bureau
+
 
 *Data to Investigate:*
 
@@ -41,3 +43,5 @@ Homicide Closure Rates - Metropolitan Police Department (https://mpdc.dc.gov/nod
 District Crime Data at a Glance - Metropolitan Police Department (https://mpdc.dc.gov/node/197622)
 
 D.C. Crime Cards - Metropolitan Police Department (https://dcatlas.dcgis.dc.gov/crimecards/all:crimes/all:weapons/8:years/citywide:ward)
+
+D.C. Census Tract, 2010 - Open Data D.C. (http://opendata.dc.gov/datasets/census-tracts-in-2010)

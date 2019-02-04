@@ -12,6 +12,8 @@ Arrest Data - adult arrests made by the MPD from 2013 to 2017, each row denotes 
 
 Crime Statistics (Citywide) - official crime index for D.C. from 2013 to 2016
 
+Homicide Closure Rates - data runs from 2003 to 2017
+
 
 *Data to Investigate:*
 
@@ -29,3 +31,5 @@ Arrest Data - Metropolitan Police Department (https://mpdc.dc.gov/node/1379551)
 Crime Statistics (Citywide) - Metropolitan Police Department (https://mpdc.dc.gov/node/199172)
 
 Crime Data Explorer - Federal Bureau of Investigation (https://crime-data-explorer.fr.cloud.gov/explorer/state/district-of-columbia/crime/2007/2017)
+
+Homicide Closure Rates - Metropolitan Police Department (https://mpdc.dc.gov/node/208772)

@@ -1,6 +1,11 @@
 # near_act
 **Github Repo for JLC-309 Final Proj**
 
+*Definitions*
+
+Stop - a temporary detention of a person for the purpose of determining whether probable cause exists to arrest a person 
+
+Frisk - a limited protective search on a person to determine the presence of concealed weapons and/or dangerous instruments
 
 *Data Under Consideration:* 
 
@@ -16,6 +21,9 @@ Homicide Closure Rates - data runs from 2003 to 2017
 
 DC Census Tract - data sourced from 2010 with geographic and cartographic information from the Census Bureau
 
+Stop and Frisk Incident Reports - data may include non-forcible stops, forcible stopes, and frisks due to errors in reporting 
+
+Stop and Frisk Field Contact - includes data that was filed under a field contact report instead of an incident report
 
 *Data to Investigate:*
 
@@ -45,3 +53,7 @@ District Crime Data at a Glance - Metropolitan Police Department (https://mpdc.d
 D.C. Crime Cards - Metropolitan Police Department (https://dcatlas.dcgis.dc.gov/crimecards/all:crimes/all:weapons/8:years/citywide:ward)
 
 D.C. Census Tract, 2010 - Open Data D.C. (http://opendata.dc.gov/datasets/census-tracts-in-2010)
+
+Stop and Frisk Incident - Open Data D.C. (http://opendata.dc.gov/datasets/stop-and-frisk-incident?orderBy=YEAR&orderByAsc=false)
+
+Stop and Frisk Field Contact - Open Data D.C. (http://opendata.dc.gov/datasets/stop-and-frisk-field-contact)

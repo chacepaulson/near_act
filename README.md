@@ -5,8 +5,12 @@ Shot Spotter - gun shot detection, acoustic surveillance technology that uses se
 
 Stop Data - includes "stop and frisk" data, "vehicle stop" data, "pedestrian stop" data, and "bicycle stop" data
 
+Arrest Data - adult arrests made by the MPD from 2013 to 2017, each row denotes one arrest and not one charge
+
 Sources: 
 
 ShotSpotter Data - Metropolitan Police Department (https://mpdc.dc.gov/node/1310761)
 
 Stop Data - Metropolitan Police Department (https://mpdc.dc.gov/node/1310236)
+
+Arrest Data - Metropolitan Police Department (https://mpdc.dc.gov/node/1379551)

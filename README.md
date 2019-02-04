@@ -19,6 +19,8 @@ Homicide Closure Rates - data runs from 2003 to 2017
 
 FBI Crime Data Explorer - data derived from incident-based and summary reports, have not yet located the appropriate data set to utilize from the set, arrest and use-of-force data should be coming out soon as well 
 
+District Crime Data at a Glance - look into the degree to which this data differs from previously recorded data
+
 
 *Sources:*
 
@@ -33,3 +35,5 @@ Crime Statistics (Citywide) - Metropolitan Police Department (https://mpdc.dc.go
 Crime Data Explorer - Federal Bureau of Investigation (https://crime-data-explorer.fr.cloud.gov/explorer/state/district-of-columbia/crime/2007/2017)
 
 Homicide Closure Rates - Metropolitan Police Department (https://mpdc.dc.gov/node/208772)
+
+District Crime Data at a Glance - Metropolitan Police Department (https://mpdc.dc.gov/node/197622)

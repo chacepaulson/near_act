@@ -61,18 +61,25 @@ D.C. Census Tract, 2010 - Open Data D.C. (http://opendata.dc.gov/datasets/census
 Stop and Frisk Incident - Open Data D.C. (http://opendata.dc.gov/datasets/stop-and-frisk-incident?orderBy=YEAR&orderByAsc=false)
 
 Stop and Frisk Field Contact - Open Data D.C. (http://opendata.dc.gov/datasets/stop-and-frisk-field-contact)
-Crime Incidents in 2008 - Open Data D.C. (
-Crime Incidents in 2009 - Open Data D.C. 
-Crime Incidents in 2010 - Open Data D.C. 
-Crime Incidents in 2011 - Open Data D.C. 
-Crime Incidents in 2012 - Open Data D.C. 
 
-Crime Incidents in 2013 - Open Data D.C. 
+Crime Incidents in 2008 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2008)
 
-Crime Incidents in 2014 - Open Data D.C. 
+Crime Incidents in 2009 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2009)
+
+Crime Incidents in 2010 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2010)
+
+Crime Incidents in 2011 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2011)
+
+Crime Incidents in 2012 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2012)
+
+Crime Incidents in 2013 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2013)
+
+Crime Incidents in 2014 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2014)
 
 Crime Incidents in 2015 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2015)
+
 Crime Incidents in 2016 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2016)
+
 Crime Incidents in 2017 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2017?geometry=-77.659%2C38.713%2C-76.367%2C39.087)
 
 Crime Incidents in 2018 - Open Data D.C. (http://opendata.dc.gov/datasets/crime-incidents-in-2018?geometry=-77.659%2C38.713%2C-76.367%2C39.087)

@@ -2,5 +2,438 @@
 
 
 # Total Incidents by Year -------------------------------------------------
+crime_count <- data.frame(year = c(2008, 2009, 2010, 2011, 2012, 2013,2014,
+                                   2015, 2016, 2017, 2018, 2019),
+                          count = c(nrow(crime08), nrow(crime09), nrow(crime10),
+                                    nrow(crime11), nrow(crime12), nrow(crime13),
+                                    nrow(crime14), nrow(crime15), nrow(crime16),
+                                    nrow(crime17), nrow(crime18), nrow(crime19)))
+crime_count
 
 
+# Types of Incidents by Year ----------------------------------------------
+unique(crime$offense)
+
+# 2018
+crime_type08 <- data.frame(year = c(2008, 2008, 2008, 2008, 2008, 2008,
+                                    2008, 2008, 2008),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime08, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime08, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime08, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime08, offense == "BURGLARY")),
+                                     nrow(subset(crime08, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime08, offense == "ROBBERY")),
+                                     nrow(subset(crime08, offense == "HOMICIDE")),
+                                     nrow(subset(crime08, offense == "SEX ABUSE")),
+                                     nrow(subset(crime08, offense == "ARSON"))
+                           ))
+
+# 2009
+crime_type09 <- data.frame(year = c(2009, 2009, 2009, 2009, 2009, 2009,
+                                    2009, 2009, 2009),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime09, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime09, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime09, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime09, offense == "BURGLARY")),
+                                     nrow(subset(crime09, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime09, offense == "ROBBERY")),
+                                     nrow(subset(crime09, offense == "HOMICIDE")),
+                                     nrow(subset(crime09, offense == "SEX ABUSE")),
+                                     nrow(subset(crime09, offense == "ARSON"))
+                           ))
+
+# 2010
+crime_type10 <- data.frame(year = c(2010, 2010, 2010, 2010, 2010, 2010,
+                                    2010, 2010, 2010),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime10, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime10, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime10, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime10, offense == "BURGLARY")),
+                                     nrow(subset(crime10, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime10, offense == "ROBBERY")),
+                                     nrow(subset(crime10, offense == "HOMICIDE")),
+                                     nrow(subset(crime10, offense == "SEX ABUSE")),
+                                     nrow(subset(crime10, offense == "ARSON"))
+                           ))
+
+# 2011
+crime_type11 <- data.frame(year = c(2011, 2011, 2011, 2011, 2011, 2011,
+                                    2011, 2011, 2011),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime11, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime11, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime11, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime11, offense == "BURGLARY")),
+                                     nrow(subset(crime11, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime11, offense == "ROBBERY")),
+                                     nrow(subset(crime11, offense == "HOMICIDE")),
+                                     nrow(subset(crime11, offense == "SEX ABUSE")),
+                                     nrow(subset(crime11, offense == "ARSON"))
+                           ))
+
+# 2012
+crime_type12 <- data.frame(year = c(2012, 2012, 2012, 2012, 2012, 2012,
+                                    2012, 2012, 2012),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime12, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime12, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime12, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime12, offense == "BURGLARY")),
+                                     nrow(subset(crime12, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime12, offense == "ROBBERY")),
+                                     nrow(subset(crime12, offense == "HOMICIDE")),
+                                     nrow(subset(crime12, offense == "SEX ABUSE")),
+                                     nrow(subset(crime12, offense == "ARSON"))
+                           ))
+
+# 2013
+crime_type13 <- data.frame(year = c(2013, 2013, 2013, 2013, 2013, 2013,
+                                    2013, 2013, 2013),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime13, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime13, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime13, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime13, offense == "BURGLARY")),
+                                     nrow(subset(crime13, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime13, offense == "ROBBERY")),
+                                     nrow(subset(crime13, offense == "HOMICIDE")),
+                                     nrow(subset(crime13, offense == "SEX ABUSE")),
+                                     nrow(subset(crime13, offense == "ARSON"))
+                           ))
+
+# 2014
+crime_type14 <- data.frame(year = c(2014, 2014, 2014, 2014, 2014, 2014,
+                                    2014, 2014, 2014),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime14, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime14, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime14, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime14, offense == "BURGLARY")),
+                                     nrow(subset(crime14, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime14, offense == "ROBBERY")),
+                                     nrow(subset(crime14, offense == "HOMICIDE")),
+                                     nrow(subset(crime14, offense == "SEX ABUSE")),
+                                     nrow(subset(crime14, offense == "ARSON"))
+                           ))
+
+# 2015
+crime_type15 <- data.frame(year = c(2015, 2015, 2015, 2015, 2015, 2015,
+                                    2015, 2015, 2015),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime15, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime15, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime15, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime15, offense == "BURGLARY")),
+                                     nrow(subset(crime15, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime15, offense == "ROBBERY")),
+                                     nrow(subset(crime15, offense == "HOMICIDE")),
+                                     nrow(subset(crime15, offense == "SEX ABUSE")),
+                                     nrow(subset(crime15, offense == "ARSON"))
+                           ))
+
+# 2016
+crime_type16 <- data.frame(year = c(2016, 2016, 2016, 2016, 2016, 2016,
+                                    2016, 2016, 2016),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime16, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime16, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime16, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime16, offense == "BURGLARY")),
+                                     nrow(subset(crime16, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime16, offense == "ROBBERY")),
+                                     nrow(subset(crime16, offense == "HOMICIDE")),
+                                     nrow(subset(crime16, offense == "SEX ABUSE")),
+                                     nrow(subset(crime16, offense == "ARSON"))
+                           ))
+
+# 2017
+crime_type17 <- data.frame(year = c(2017, 2017, 2017, 2017, 2017, 2017,
+                                    2017, 2017, 2017),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime17, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime17, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime17, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime17, offense == "BURGLARY")),
+                                     nrow(subset(crime17, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime17, offense == "ROBBERY")),
+                                     nrow(subset(crime17, offense == "HOMICIDE")),
+                                     nrow(subset(crime17, offense == "SEX ABUSE")),
+                                     nrow(subset(crime17, offense == "ARSON"))
+                           ))
+
+# 2018
+crime_type18 <- data.frame(year = c(2018, 2018, 2018, 2018, 2018, 2018,
+                                    2018, 2018, 2018),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime18, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime18, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime18, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime18, offense == "BURGLARY")),
+                                     nrow(subset(crime18, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime18, offense == "ROBBERY")),
+                                     nrow(subset(crime18, offense == "HOMICIDE")),
+                                     nrow(subset(crime18, offense == "SEX ABUSE")),
+                                     nrow(subset(crime18, offense == "ARSON"))
+                           ))
+
+# 2019
+crime_type19 <- data.frame(year = c(2019, 2019, 2019, 2019, 2019, 2019,
+                                    2019, 2019, 2019),
+                           type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime19, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime19, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime19, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime19, offense == "BURGLARY")),
+                                     nrow(subset(crime19, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime19, offense == "ROBBERY")),
+                                     nrow(subset(crime19, offense == "HOMICIDE")),
+                                     nrow(subset(crime19, offense == "SEX ABUSE")),
+                                     nrow(subset(crime19, offense == "ARSON"))
+                           ))
+
+
+# check that counts ran correctly
+crime_type08
+crime_type09
+crime_type10
+crime_type11
+crime_type12
+crime_type13
+crime_type14
+crime_type15
+crime_type16
+crime_type17
+crime_type18
+crime_type19
+
+# find average count 
+crime_type_tot <- data.frame(type = c("theft", "auto theft", "assault w weap",
+                                    "burglary", "mv theft", "robbery", 
+                                    "homicide", "sex abuse", "arson"),
+                           count = c(nrow(subset(crime, offense == "THEFT/OTHER")),
+                                     nrow(subset(crime, offense == "THEFT F/AUTO")),
+                                     nrow(subset(crime, offense == "ASSAULT W/DANGEROUS WEAPON")),
+                                     nrow(subset(crime, offense == "BURGLARY")),
+                                     nrow(subset(crime, offense == "MOTOR VEHICLE THEFT")),
+                                     nrow(subset(crime, offense == "ROBBERY")),
+                                     nrow(subset(crime, offense == "HOMICIDE")),
+                                     nrow(subset(crime, offense == "SEX ABUSE")),
+                                     nrow(subset(crime, offense == "ARSON"))
+                           ))
+
+crime_type_tot
+
+# compile yearly counts in one data frame
+crime_type <- rbind(crime_type08, crime_type09, crime_type10, 
+                    crime_type11, crime_type12, crime_type13, 
+                    crime_type14, crime_type15, crime_type16,
+                    crime_type17, crime_type18, crime_type19)
+
+
+# Break down by PD --------------------------------------------------------
+colnames(crime)
+unique(crime$district)
+
+# total count by district
+crime_type_tot <- data.frame(district = c(1, 2, 3, 4, 5, 6, 7),
+                             count = c(nrow(subset(crime, district = 1)),
+                                       nrow(subset(crime, district = 2)),
+                                       nrow(subset(crime, district = 3)),
+                                       nrow(subset(crime, district = 4)),
+                                       nrow(subset(crime, district = 5)),
+                                       nrow(subset(crime, district = 6)),
+                                       nrow(subset(crime, district = 7))))
+crime_type_tot 
+
+# count by district by year
+
+# 2008
+crime_district08 <- data.frame(year = c(2008, 2008, 2008, 2008, 2008, 2008,
+                                    2008),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime08, district == 1)),
+                                     nrow(subset(crime08, district == 2)),
+                                     nrow(subset(crime08, district == 3)),
+                                     nrow(subset(crime08, district == 4)),
+                                     nrow(subset(crime08, district == 5)),
+                                     nrow(subset(crime08, district == 6)),
+                                     nrow(subset(crime08, district == 7))))
+
+# 2009
+crime_district09 <- data.frame(year = c(2009, 2009, 2009, 2009, 2009, 2009,
+                                    2009),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime09, district == 1)),
+                                     nrow(subset(crime09, district == 2)),
+                                     nrow(subset(crime09, district == 3)),
+                                     nrow(subset(crime09, district == 4)),
+                                     nrow(subset(crime09, district == 5)),
+                                     nrow(subset(crime09, district == 6)),
+                                     nrow(subset(crime09, district == 7))))
+
+# 2010
+crime_district10 <- data.frame(year = c(2010, 2010, 2010, 2010, 2010, 2010,
+                                    2010),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime10, district == 1)),
+                                     nrow(subset(crime10, district == 2)),
+                                     nrow(subset(crime10, district == 3)),
+                                     nrow(subset(crime10, district == 4)),
+                                     nrow(subset(crime10, district == 5)),
+                                     nrow(subset(crime10, district == 6)),
+                                     nrow(subset(crime10, district == 7))))
+
+# 2011
+crime_district11 <- data.frame(year = c(2011, 2011, 2011, 2011, 2011, 2011,
+                                    2011),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime11, district == 1)),
+                                     nrow(subset(crime11, district == 2)),
+                                     nrow(subset(crime11, district == 3)),
+                                     nrow(subset(crime11, district == 4)),
+                                     nrow(subset(crime11, district == 5)),
+                                     nrow(subset(crime11, district == 6)),
+                                     nrow(subset(crime11, district == 7))))
+
+# 2012
+crime_district12 <- data.frame(year = c(2012, 2012, 2012, 2012, 2012, 2012,
+                                    2012),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime12, district == 1)),
+                                     nrow(subset(crime12, district == 2)),
+                                     nrow(subset(crime12, district == 3)),
+                                     nrow(subset(crime12, district == 4)),
+                                     nrow(subset(crime12, district == 5)),
+                                     nrow(subset(crime12, district == 6)),
+                                     nrow(subset(crime12, district == 7))))
+
+# 2013
+crime_district13 <- data.frame(year = c(2013, 2013, 2013, 2013, 2013, 2013,
+                                    2013),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime13, district == 1)),
+                                     nrow(subset(crime13, district == 2)),
+                                     nrow(subset(crime13, district == 3)),
+                                     nrow(subset(crime13, district == 4)),
+                                     nrow(subset(crime13, district == 5)),
+                                     nrow(subset(crime13, district == 6)),
+                                     nrow(subset(crime13, district == 7))))
+
+# 2014
+crime_district14 <- data.frame(year = c(2014, 2014, 2014, 2014, 2014, 2014,
+                                    2014),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime14, district == 1)),
+                                     nrow(subset(crime14, district == 2)),
+                                     nrow(subset(crime14, district == 3)),
+                                     nrow(subset(crime14, district == 4)),
+                                     nrow(subset(crime14, district == 5)),
+                                     nrow(subset(crime14, district == 6)),
+                                     nrow(subset(crime14, district == 7))))
+
+# 2015
+crime_district15 <- data.frame(year = c(2015, 2015, 2015, 2015, 2015, 2015,
+                                    2015),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime15, district == 1)),
+                                     nrow(subset(crime15, district == 2)),
+                                     nrow(subset(crime15, district == 3)),
+                                     nrow(subset(crime15, district == 4)),
+                                     nrow(subset(crime15, district == 5)),
+                                     nrow(subset(crime15, district == 6)),
+                                     nrow(subset(crime15, district == 7))))
+
+# 2016
+crime_district16 <- data.frame(year = c(2016, 2016, 2016, 2016, 2016, 2016,
+                                    2016),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime16, district == 1)),
+                                     nrow(subset(crime16, district == 2)),
+                                     nrow(subset(crime16, district == 3)),
+                                     nrow(subset(crime16, district == 4)),
+                                     nrow(subset(crime16, district == 5)),
+                                     nrow(subset(crime16, district == 6)),
+                                     nrow(subset(crime16, district == 7))))
+
+# 2017
+crime_district17 <- data.frame(year = c(2017, 2017, 2017, 2017, 2017, 2017,
+                                    2017),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime17, district == 1)),
+                                     nrow(subset(crime17, district == 2)),
+                                     nrow(subset(crime17, district == 3)),
+                                     nrow(subset(crime17, district == 4)),
+                                     nrow(subset(crime17, district == 5)),
+                                     nrow(subset(crime17, district == 6)),
+                                     nrow(subset(crime17, district == 7))))
+
+# 2018
+crime_district18 <- data.frame(year = c(2018, 2018, 2018, 2018, 2018, 2018,
+                                    2018),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime18, district == 1)),
+                                     nrow(subset(crime18, district == 2)),
+                                     nrow(subset(crime18, district == 3)),
+                                     nrow(subset(crime18, district == 4)),
+                                     nrow(subset(crime18, district == 5)),
+                                     nrow(subset(crime18, district == 6)),
+                                     nrow(subset(crime18, district == 7))))
+
+# 2019
+crime_district19 <- data.frame(year = c(2019, 2019, 2019, 2019, 2019, 2019,
+                                    2019),
+                           district = c(1, 2, 3, 4, 5, 6, 7),
+                           count = c(nrow(subset(crime19, district == 1)),
+                                     nrow(subset(crime19, district == 2)),
+                                     nrow(subset(crime19, district == 3)),
+                                     nrow(subset(crime19, district == 4)),
+                                     nrow(subset(crime19, district == 5)),
+                                     nrow(subset(crime19, district == 6)),
+                                     nrow(subset(crime19, district == 7))))
+
+# check that all code ran correctly 
+crime_district08
+crime_district09
+crime_district10
+crime_district11
+crime_district12
+crime_district13
+crime_district14
+crime_district15
+crime_district16
+crime_district17
+crime_district18
+crime_district19
+
+
+# Breakdown by Both District and Type -------------------------------------
+
+
+                             
